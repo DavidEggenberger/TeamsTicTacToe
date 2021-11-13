@@ -118,9 +118,9 @@ namespace WebAPI
                             "profile",
                             "API"
                         },
-                        RedirectUris = { "https://localhost:44344/authentication/login-callback" },
-                        PostLogoutRedirectUris = { "https://localhost:44344" },
-                        FrontChannelLogoutUri = "https://localhost:44344"
+                        RedirectUris = { "https://localhost:44389/authentication/login-callback" },
+                        PostLogoutRedirectUris = { "https://localhost:44389" },
+                        FrontChannelLogoutUri = "https://localhost:44389"
                     });
                     options.ApiResources = new ApiResourceCollection
                     {
